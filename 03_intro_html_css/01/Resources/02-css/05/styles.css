@@ -1,0 +1,20 @@
+p {
+    color: rgb(25, 93, 116);
+    font-weight: 5;
+}
+
+.hlg {
+    background-color: #cf7979;
+}
+
+.color-text {
+    color: #cf7979;
+}
+
+a {
+    text-decoration: none;
+}
+
+.green-link {
+    color: green;
+}
