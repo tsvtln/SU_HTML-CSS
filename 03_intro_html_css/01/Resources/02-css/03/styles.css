@@ -1,0 +1,25 @@
+.highlight {
+    color: aqua;
+}
+
+.sc {
+    background-color: orange;
+}
+
+#item1 {
+    color: aqua;
+}
+
+#item3 {
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+
+.blue {
+    color: blue;
+}
+
+.orange {
+    color: orange;
+}
