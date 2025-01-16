@@ -12,4 +12,9 @@ p + p {
 
 p ~ span {
     font-weight: bold;
+    color: red;
+}
+
+span {
+    color: red;
 }
