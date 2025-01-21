@@ -1,0 +1,23 @@
+div {
+    border: 1px solid black;
+    margin: 3em;
+    padding-bottom: 1em;
+    padding-top: 0.1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    max-width: auto;
+}
+
+h1 {
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.font {
+    font-family: Lato, sans-serif;
+}
+
+footer {
+    padding-top: 2em;
+    margin: 0 auto;
+}
