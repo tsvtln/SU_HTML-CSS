@@ -1,0 +1,27 @@
+.flex-container {
+    width: 500px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+
+.flex-container:nth-of-type(1) {
+    gap: 2em 0;  /* gap row */
+}
+
+.flex-container:nth-of-type(2) {
+    gap: 0 2em;  /* gap column */
+}
+
+.flex-container:nth-of-type(3) {
+    gap: 2em;
+}
