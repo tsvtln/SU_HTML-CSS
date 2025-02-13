@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner</title>
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #eee;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 4em auto;
+            background: #fff;
+        }
+
+        .banner {
+            background-image: url(images/image1.jpg);
+            background-size: cover;
+            padding: 9em 4em;
+            padding: 12em 4em 4em;
+            text-align: center;
+            color: #fff;
+            position: relative;
+            border-radius: 0.5em;
+            background-position: center;
+            aspect-ratio: 2/1;
+        }
+
+        .banner::after {
+            display: block;
+            content: '';
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+            background-image: linear-gradient(180deg, rgb(0,0,0,0.0) 50%, rgb(0,0,0,1) 100%);
+        }
+
+        .banner div {
+            position: relative;
+            z-index: 2;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <section class="banner">
+            <div>
+                <h1>The Fancy Lounge</h1>
+                <p>A place for relaxation and engaging conversation</p>
+            </div>
+        </section>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat architecto hic ex amet cupiditate
+            voluptatum dolore dolores? Aperiam deserunt blanditiis enim hic eligendi asperiores nesciunt inventore.
+            Fugit minus commodi non!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ratione, cumque ducimus dolores ipsa eaque
+            tempore exercitationem! Repellendus temporibus voluptate explicabo labore quo aperiam quasi eum veritatis.
+            Laborum, eveniet doloribus.</p>
+    </div>
+
+</body>
+
+</html>
