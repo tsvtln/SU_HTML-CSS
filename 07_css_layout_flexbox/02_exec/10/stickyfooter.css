@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    border: 2px solid green;
+    display: flex;
+    min-height: 100dvh;
+    padding: 2em;
+    flex-direction: column;
+    gap: 2em;
+}
+
+body > * {
+    border: 2px solid blue;
+    border-radius: 0.3em;
+    padding: 1em;
+}
+
+main {
+    flex-grow: 1;
+}
