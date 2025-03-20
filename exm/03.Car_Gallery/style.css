@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+}
+
+.header-bg {
+    background: rgb(242, 182, 157);
+    background: linear-gradient(270deg, rgba(242, 182, 157, 1) 46%, rgba(255, 112, 136, 1) 91%);
+}
+
+.navbar {
+    padding: 1rem;
+    position: relative;
+    background: none;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.navbar li {
+    color: white;
+    font-weight: light;
+    cursor: pointer;
+    font-size: 1rem;
+    position: relative;
+}
+
+.navbar .active {
+    color: #fff;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    border-left: 0.1rem solid #fff;
+    border-right: 0.1rem solid #fff;
+    border-bottom: 0.1rem solid #fff;
+    border-top: none;
+    border-radius: 0 0 0.2rem 0.2rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    position: relative;
+    background: rgba(255, 255, 255, 0.308);
+}
+
+.navbar .active::before {
+    content: "";
+    position: absolute;
+    top: -1rem;
+    left: -0.05rem;
+    right: -0.05rem;
+    height: 1rem;
+    border-left: 0.1rem solid #fff;
+    border-right: 0.1rem solid #fff;
+    background: rgba(255, 255, 255, 0.308);
+}
+
+.car-gallery {
+    color: white;
+    background: none;
+    padding: 5dvh 2dvw;
+}
+
+.car-gallery h1 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+.car-gallery p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.car-gallery button {
+    margin-top: 2em;
+    padding: 0.8rem 2.5rem;
+    background: none;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.white-separator {
+    background: white;
+    height: 3dvh;
+    width: 100%;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 0;
+    margin-bottom: -0.3em;
+    background: #ececec;
+}
+
+.image-container {
+    width: 40%;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.text-section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background: white;
+    padding: 2dvh 2dvw;
+}
+
+.text-card {
+    text-align: center;
+    background: rgb(255, 255, 255);
+    width: 40%;
+}
+
+.text-card h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #444;
+    margin-bottom: 0.5rem;
+}
+
+.text-card p {
+    flex-grow: 1;
+}
+
+.text-card button {
+    margin-top: 2em;
+    padding: 1em 2.5em;
+    border: 1px solid rgba(177, 167, 167, 0.74);
+    background: none;
+    color: #666;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+.promo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('images/promo.jpg') center/cover no-repeat;
+    padding: 5dvh 2dvw;
+    color: white;
+    text-align: center;
+}
+
+.promo-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.445);
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.promo-box p {
+    font-size: 1.2rem;
+    margin: 0;
+    color: white;
+}
+
+.promo-box button {
+    padding: 0.8rem 1.5rem;
+    background: white;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #6a919fd8;
+}
+
+.weird-cars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3dvh 0 0;
+    background: white;
+    margin-bottom: 0;
+}
+
+.weird-cars-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background: white;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.weird-cars-header h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #444;
+    text-transform: uppercase;
+}
+
+.weird-cars-header button {
+    margin-top: 2em;
+    padding: 1em 1.5em;
+    border: 1px solid rgba(177, 167, 167, 0.74);
+    background: none;
+    color: #666;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+.car-gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.car-gallery-images img {
+    width: 12.5rem;
+}
+
+footer {
+    padding: 3dvh;
+    background: #eee;
+}
+
+footer h2 {
+    font-size: 1.8rem;
+}
+
+footer p {
+    color: #666;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.white-separator2 {
+    background: white;
+    height: 5dvh;
+    width: 100%;
+    border-bottom: 1px solid darkgray;
+}
+
+footer h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #444;
+}
+
+footer p:first-of-type {
+    color: #f35891a8;
+    font-weight: lighter;
+}
+
+.footer-separator {
+    width: 60%;
+    height: 1px;
+    background: rgba(100, 100, 100, 0.3);
+    margin: 2rem auto;
+}
+
+.copyright {
+    color: #66666650;
+    font-size: 0.7rem;
+}
